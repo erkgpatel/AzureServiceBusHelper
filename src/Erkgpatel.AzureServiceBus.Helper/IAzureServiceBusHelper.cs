@@ -1,8 +1,6 @@
 ﻿namespace Erkgpatel.AzureServiceBus.Helper
 {
-    public class MeessageFactory
+    public interface IAzureServiceBusHelper
     {
-
     }
-
 }
