@@ -84,6 +84,4 @@
             public string? ServiceBusConnectionString { get; set; }
         }
     }
-
-
 }
