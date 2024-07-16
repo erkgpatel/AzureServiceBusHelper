@@ -28,6 +28,7 @@ namespace Erkgpatel.AzureServiceBus.Helper
                 _processors.Add(typeof(T).ToString(), processor);
             }
         }
+
         public async Task StartProcessingAsync(Func<T, Task> messageHandler)
         {
             foreach (var processor in _processors)
