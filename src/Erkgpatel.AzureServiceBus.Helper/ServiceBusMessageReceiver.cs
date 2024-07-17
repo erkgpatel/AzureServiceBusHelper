@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Options;
 using System.Text.Json;
 
-
 namespace Erkgpatel.AzureServiceBus.Helper
 {
     internal class ServiceBusMessageReceiver<T>
