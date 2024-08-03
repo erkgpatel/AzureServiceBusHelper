@@ -11,7 +11,6 @@ namespace Erkgpatel.AzureServiceBus.Helper
         public ServiceBusMessageReceiver(IOptions<ServiceBusConfigs> configs)
         {
 
-
             foreach (var config in configs.Value.Configurations)
             {
                 var client = new ServiceBusClient(config.ConnectionString);
